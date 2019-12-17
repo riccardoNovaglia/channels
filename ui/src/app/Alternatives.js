@@ -1,5 +1,5 @@
 import React from "react";
-import { QA, Dev } from "./channels/Alternatives";
+import { QA, Dev } from "../channels/Alternatives";
 
 export function Alternatives() {
   return (

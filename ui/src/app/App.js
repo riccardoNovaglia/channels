@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import { OnOff } from "./OnOff";
 import { Alternatives } from "./Alternatives";
-import { ChannelsRouter, Banner } from "./channels/Channels";
+import { ChannelsRouter, Banner } from "../channels/Channels";
 
 function App() {
   return (

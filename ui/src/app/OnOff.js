@@ -1,5 +1,5 @@
 import React from "react";
-import { QA, Dev } from "./channels/OnOff";
+import { QA, Dev } from "../channels/OnOff";
 
 export function OnOff() {
   return (
