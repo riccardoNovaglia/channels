@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  QA as AlternativeQa,
-  Dev as AlternativeDev
-} from "./AlternativeComponents";
+import { QA as AlternativeQa, Dev as AlternativeDev } from "./Alternatives";
 
 export function QA(props) {
   return (

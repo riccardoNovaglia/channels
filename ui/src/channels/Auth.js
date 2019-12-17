@@ -1,25 +1,4 @@
 import React, { useState } from "react";
-import { ChannelContext } from "./App";
-
-export function QA(props) {
-  return (
-    <ChannelContext.Consumer>
-      {channel =>
-        channel === "qa" || channel === "dev"
-          ? props.children.on
-          : props.children.off
-      }
-    </ChannelContext.Consumer>
-  );
-}
-
-export function Dev(props) {
-  return (
-    <ChannelContext.Consumer>
-      {context => (context === "dev" ? props.children.on : props.children.off)}
-    </ChannelContext.Consumer>
-  );
-}
 
 export function Auth(props) {
   const [checked, setChecked] = useState(false);
